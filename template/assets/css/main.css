@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  min-height: 150px;
+}
+header nav {
+  width: 100%;
+  min-height: 80px;
+}
+header nav .menu {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+header nav .menu .list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+header nav .menu .list li a {
+  font-size: 15px;
+  transition: 0.3s season;
+}
+header nav .menu .list li a:hover {
+  color: rgba(255, 0, 0, 0.653);
+}
+
+@media only screen and (max-width: 600px) {
+  .headerDiv p {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 400px) and (max-width: 600px) {
+  .headerDiv p {
+    font-size: 10px;
+  }
+}
+#minimal-menz-style {
+  background-image: url(/assets/images/h1_hero2.jpg);
+  display: flex;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 650px;
+}
+#minimal-menz-style .fashion-sale {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+#minimal-menz-style .fashion-sale h4 {
+  text-align: center;
+  font-size: 35px;
+  color: rgba(255, 0, 0, 0.774);
+  font-family: poppins;
+}
+#minimal-menz-style .fashion-sale h1 {
+  font-size: 40px;
+}
+#minimal-menz-style .fashion-sale p {
+  width: 38%;
+  text-align: center;
+  color: rgba(250, 235, 215, 0.877);
+}
+#minimal-menz-style .fashion-sale button {
+  padding: 9px 35px;
+  color: white;
+  background-color: black;
+}
+#minimal-menz-style .fashion-sale button:hover {
+  background-color: white;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  #minimal-menz-style .fashion-sale h4 {
+    font-size: 25px;
+  }
+  #minimal-menz-style .fashion-sale h1 {
+    font-size: 30px;
+  }
+  #minimal-menz-style .fashion-sale p {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #minimal-menz-style .fashion-sale h4 {
+    font-size: 20px;
+  }
+  #minimal-menz-style .fashion-sale h1 {
+    font-size: 20px;
+  }
+  #minimal-menz-style .week p {
+    font-size: 10px;
+  }
+  #minimal-menz-style .week span {
+    font-size: 10px;
+  }
+}
+#fashion {
+  width: 100%;
+  min-height: 440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#fashion .stylefashion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#fashion .stylefashion img {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+#trending-This-Week {
+  width: 100%;
+  min-height: 640px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#customer {
+  width: 100%;
+  min-height: 440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F3EAD8;
+}
+#customer .testimonial h2 {
+  font-size: 30px;
+  min-height: 60px;
+}
+#customer .testimonial p {
+  font-size: 20px;
+  width: 46%;
+  text-align: center;
+  min-height: 100px;
+}
+#customer .images {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+#products {
+  width: 100%;
+  min-height: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#products #product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#products #product .boxDiv {
+  margin-bottom: 20px;
+}
+#products #product .addtobasket {
+  padding: 7px 17px;
+  color: black;
+  font-size: 12px;
+  border-color: #F3EAD8;
+  background-color: #F3EAD8;
+  gap: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#products #product .addtobasket:hover {
+  background-color: white;
+  color: black;
+}
+#products .button {
+  min-height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+#products .button #pages {
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  padding: 7px 17px;
+}
+
+#customer {
+  width: 100%;
+  min-height: 440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F3EAD8;
+}
+#customer .testimonial h2 {
+  font-size: 30px;
+  min-height: 60px;
+}
+#customer .testimonial p {
+  font-size: 20px;
+  width: 46%;
+  text-align: center;
+  min-height: 100px;
+}
+#customer .images {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+@media only screen and (max-width: 600px) {
+  #customer .testimonial h2 {
+    font-size: 25px;
+  }
+  #customer .testimonial p {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #customer .testimonial h2 {
+    font-size: 20px;
+  }
+  #customer .testimonial p {
+    font-size: 10px;
+  }
+}
+#friendly {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#friendly .formtitle {
+  min-height: 200px;
+  width: 100%;
+}
+#friendly .formtitle h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60px;
+}
+#friendly .formtitle p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.395);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  min-height: 150px;
+}
+header nav {
+  width: 100%;
+  min-height: 80px;
+}
+header nav .menu {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+header nav .menu .list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+header nav .menu .list li a {
+  font-size: 15px;
+  transition: 0.3s season;
+}
+header nav .menu .list li a:hover {
+  color: rgba(255, 0, 0, 0.653);
+}
+
+#product-sec {
+  min-height: 610px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#product-sec #getProduct {
+  min-height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+#product-sec #getProduct button {
+  background-color: rgb(255, 197, 121);
+  border-radius: 20px;
+  padding: 8px 17px;
+  font-size: 12px;
+  color: black;
+}
+#product-sec #getProduct button:hover {
+  background-color: black;
+}
